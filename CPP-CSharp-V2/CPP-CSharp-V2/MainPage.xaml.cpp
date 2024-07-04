@@ -32,6 +32,10 @@ void CPP_CSharp_V2::MainPage::Button_Click(Platform::Object^ sender, Windows::UI
 	RuntimeComponent1::Class1^ c = ref new RuntimeComponent1::Class1();
 	Platform::String^ s = c->Foo("bar");
 	textBox1->Text += s;
+
+	int a = 9;
+	int b = 0;
+	int result = a / b;
 }
 
 
