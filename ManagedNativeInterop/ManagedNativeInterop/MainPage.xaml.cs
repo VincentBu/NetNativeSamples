@@ -33,9 +33,9 @@ namespace ManagedNativeInterop
             string foo = class1.GetFoo();
             textBox1.Text += foo + "!";
 
-            int a = 9;
-            int b = 0;
-            int c = a / b;
+            StringBuilder sb = new StringBuilder(15, 15);
+            sb.Append("Substring #1 ");
+            sb.Insert(0, "Substring #2 ", 1);
         }
     }
 }
